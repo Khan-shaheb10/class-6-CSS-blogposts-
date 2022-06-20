@@ -1,0 +1,115 @@
+/* CARD 1 starts */
+.card {
+    width: 300px;
+    height: fit-content;
+    margin: 20px 0;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.card:hover {
+    border-radius: 0 30px 0 30px;
+    background-color: #15e041;
+    color: azure;
+}
+
+.card .card_text {
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+
+.card img {
+width: 100%;
+
+}
+
+.card .card_text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card .card_text .price {
+    font-size: 23px;
+    color: #f85606;
+    transition: 0.4s;
+}
+
+.card .card_text .price:hover {
+    background-color: #59178f;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    color:black;
+   border-radius: 25px 0 25px 0;
+    text-align: center;
+    line-height: 50px;
+    border: 1px dashed whitesmoke;
+}
+
+.card .card_text .discount span {
+    text-decoration: line-through;
+}
+/* CARD 1 ends */
+
+/* CARD 2 starts */
+.card2 {
+    width: 300px;
+    height: fit-content;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.card2:hover:hover {
+    border-radius: 0 40px 0 40px;
+    background-color: #8f15e0;
+    color: #c59b9b;
+}
+
+.card2 img {
+    width: 100%;
+}
+
+
+.card2 .card2_text {
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+
+.card img {
+width: 100%;
+padding: 10px 0;
+}
+
+.card2 .card2_text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card2 .card2_text .price {
+    font-size: 23px;
+    color: #f85606;
+    transition: 0.4s;
+}
+
+.card2 .card2_text .price:hover {
+    background-color: #59178f;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    color:#f4f9fa;
+   border-radius: 25px 0 25px 0;
+    text-align: center;
+    line-height: 100px;
+    border: 1.5px solid black;
+}
+
+.card2 .card2_text .discount span {
+    text-decoration: line-through;
+}
